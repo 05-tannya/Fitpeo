@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestPages.HomePageTest">
+        <methods>
+          <include name="tearDownDriver"/>
+        </methods>
+      </class> <!-- TestPages.HomePageTest -->
+      <class name="TestPages.RevenueCalculatorPageTest">
+        <methods>
+          <include name="VerifyScrolling"/>
+          <include name="initilizeUtilities"/>
+          <include name="tearDownDriver"/>
+          <include name="VerifyNavigationOnRevenueCalculatorPage"/>
+          <include name="setup"/>
+          <include name="VerifyNavigateionToHomePage"/>
+        </methods>
+      </class> <!-- TestPages.RevenueCalculatorPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

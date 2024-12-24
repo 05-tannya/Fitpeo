@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T16:25:29 IST" name="Default suite" finished-at="2024-12-24T16:25:55 IST" duration-ms="25743">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T16:25:29 IST" name="Default test" finished-at="2024-12-24T16:25:55 IST" duration-ms="25743">
+      <class name="TestPages.RevenueCalculatorPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:23 IST" name="setup" finished-at="2024-12-24T16:25:29 IST" duration-ms="5573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:29 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:29 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyNavigateionToHomePage()[pri:1, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:29 IST" name="VerifyNavigateionToHomePage" finished-at="2024-12-24T16:25:29 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNavigateionToHomePage -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:29 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyScrollToBottom()[pri:1, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:29 IST" name="VerifyScrollToBottom" finished-at="2024-12-24T16:25:32 IST" duration-ms="3122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollToBottom -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:32 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyNavigationOnRevenueCalculatorPage()[pri:2, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:32 IST" name="VerifyNavigationOnRevenueCalculatorPage" finished-at="2024-12-24T16:25:38 IST" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNavigationOnRevenueCalculatorPage -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:38 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyScrollToSpecificSection()[pri:2, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:38 IST" name="VerifyScrollToSpecificSection" finished-at="2024-12-24T16:25:38 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollToSpecificSection -->
+        <test-method signature="VerifySliderMovement()[pri:3, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:38 IST" name="VerifySliderMovement" finished-at="2024-12-24T16:25:42 IST" duration-ms="3519" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1662] but found [1616]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1662] but found [1616]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestPages.RevenueCalculatorPageTest.VerifySliderMovement(RevenueCalculatorPageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySliderMovement -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:38 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:42 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyTextBoxDataUsingActionsClass()[pri:4, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:42 IST" name="VerifyTextBoxDataUsingActionsClass" finished-at="2024-12-24T16:25:42 IST" duration-ms="220" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [520] but found [1616]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [520] but found [1616]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestPages.RevenueCalculatorPageTest.VerifyTextBoxDataUsingActionsClass(RevenueCalculatorPageTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTextBoxDataUsingActionsClass -->
+        <test-method is-config="true" signature="initilizeUtilities()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:42 IST" name="initilizeUtilities" finished-at="2024-12-24T16:25:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeUtilities -->
+        <test-method signature="VerifyTheChcekboxSElection()[pri:5, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:42 IST" name="VerifyTheChcekboxSElection" finished-at="2024-12-24T16:25:55 IST" duration-ms="12554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheChcekboxSElection -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:TestPages.RevenueCalculatorPageTest@368f2016]" started-at="2024-12-24T16:25:55 IST" name="tearDownDriver" finished-at="2024-12-24T16:25:55 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "Pages.BrowserFactory.closeBrowser()" because "this.b" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "Pages.BrowserFactory.closeBrowser()" because "this.b" is null
+at TestPages.HomePageTest.tearDownDriver(HomePageTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- TestPages.RevenueCalculatorPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
